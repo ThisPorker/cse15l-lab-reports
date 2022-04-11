@@ -32,7 +32,7 @@ In order to avoid repeating the task of having to sign in everytime we want to d
 
 AVOID adding a passphrase when asked, just continue to hit Enter throughout the process of creating your ssh key. (Extra step for Windows users: [Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation))
 
-Now we login to the remote connection manually to copy the public key to the .ssh directory of our user account.After login, use the command **mkdir .ssh**. Logout and use the command, **scp /Users/<user-name>/.ssh/id_rsa.pub
+Now we login to the remote connection manually to copy the public key to the .ssh directory of our user account.After login, use the command **mkdir .ssh**. Logout and use the command **scp /Users/<user-name>/.ssh/id_rsa.pub
 cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys**.
   
 ![SSH](SSHKey.png)
