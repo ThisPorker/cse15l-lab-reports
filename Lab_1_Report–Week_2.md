@@ -24,6 +24,7 @@ Let's experiment with a couple command lines in the computer we SSH'd into. Ther
 ![Commands](RunningCommands.png)
 ## Step 4: Moving Files with SCP
 Here we are going to move files from out local machine to our remote connected computer. Using the scp command, **scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/**, I moved my WhereAmI.java to my remote connection. Then I ran the java file to compare the output from my local machine to the remote connection.
+
 ![SCP](MovingWithSCP.png)
 
 ## Step 5: Setting an SSH Key
