@@ -6,7 +6,7 @@
 
 [Other group markdown-parse](https://github.com/UDXS/markdown-parser)
 
-# 
+
 ## Expected Output via CommonMark
 
 ### Snippet 1
@@ -18,32 +18,27 @@ Expected Output is `"a.com", "a.com(())", "example.com"`
 ### Snippet 3
 ![Snippet3](images/LR4/cmmrk3.png)
 Expected Output: `"https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule"`
-#
 
 ## Test Code
 
 ![TestCode](images/LR4/TestCode.png)
-#
 
 ## Our Implementation Result
 
 ![OurOutput](images/LR4/OurOutput.png)
-#
 
 ## Their Implementation Result
 
 ![TheirOutput](images/LR4/TheirOutput.png)
-#
 
 ## Question 1
 
 Snippet 1 would probably require more than 10 lines of code to ammend. You would need to loop through each link and every character of each link input. Then check if it is an allowed character or symbol and ignore them if not.
-#
+
 
 ## Question 2
 Snippet 2 would definitely require more than 10 lines of code. There are nested parenthesis which would be hard to determine which ones are actually being used and which should be ignored. There are a multiple issues with this snippet that can be as simple as ignoring backslashes before certain synax.
-#
+
 
 ## Question 3
 This snippet could probably be resolved with code that ignores newlines, in between brackets, and parenthesis. For example, if we see 2+ newline characters between syntax characters, we ignore this link.
-#
