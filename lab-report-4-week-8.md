@@ -2,7 +2,7 @@
 
 ## Markdown-parse repositories being reviewed
 
-[Our Pelican group markdown-parse](https://github.com/ryankosta/good-markdown-parser)
+[My markdown-parse](https://github.com/ThisPorker/good-markdown-parser)
 
 [Other group markdown-parse](https://github.com/UDXS/markdown-parser)
 
@@ -22,10 +22,10 @@ Expected Output: `"https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/sch
 
 ## Test Code
 
-![TestCode](images/LR4/TestCode.png)
+![TestCode](images/LR4/TestCode2.png)
 #
 
-## Our Implementation Result
+## My Implementation Result
 
 ![OurOutput](images/LR4/OurOutput.png)
 #
@@ -41,9 +41,9 @@ Snippet 1 would probably require more than 10 lines of code to ammend. You would
 #
 
 ## Question 2
-Snippet 2 would definitely require more than 10 lines of code. There are nested parenthesis which would be hard to determine which ones are actually being used and which should be ignored. There are a multiple issues with this snippet that can be as simple as ignoring backslashes before certain synax.
+Snippet 2 would require more than 10 lines of code. There are nested parenthesis which would be hard to determine which ones are actually being used and which should be ignored. There are a multiple issues with this snippet that can be as simple as ignoring backslashes before certain synax.
 #
 
 ## Question 3
-This snippet could probably be resolved with code that ignores newlines, in between brackets, and parenthesis. For example, if we see 2+ newline characters between syntax characters, we ignore this link.
+This snippet could probably be resolved with code that ignores newlines, in between brackets, and parenthesis. We might be able to keep track of the brackets or parenthesis, but any text inside of the brackets might require more code to keep it from showing up in the output. 
 #
